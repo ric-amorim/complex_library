@@ -7,14 +7,14 @@
   
    ## To use the static library just copy the file and compile your code:
   
-      > $ gcc -Wall use_complex.c -o use_complex -L. -lcomplex -lm      
+      > $ gcc -Wall "your_program.c" -L. -lcomplex -lm      
          
    (-L.) if it is in your current directory
         
    
    ## To use the dynamic one, just do the same thing like the static:
   
-      > $ gcc -Wall use_complex.c -o use_complex -L. -lcomplex -lm
+      > $ gcc -Wall "your_program.c" -L. -lcomplex -lm
     
  
   Depending on the operating system you are using, you may have to run this command for the library to be found:
