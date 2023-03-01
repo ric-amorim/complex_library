@@ -17,7 +17,7 @@
       > $ gcc -Wall use_complex.c -o use_complex -L. -lcomplex -lm
     
  
-  Depending on the operating system you are using, you may have to run the command (For the library to be found):
+  Depending on the operating system you are using, you may have to run this command for the library to be found:
   
       > $ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
   
