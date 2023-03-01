@@ -1,5 +1,7 @@
-# complex_library
+# Complex_Library
   A library in (C) for complex numbers.
+  
+  
   
 # how to use it
 
@@ -20,7 +22,9 @@
   Depending on the operating system you are using, you may have to run the command (For the library to be found):
   
     > $ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
-      
+  
+  
+  
  # some other info
  
   In the code folder you will found the implementation for the differents functions that the library contains.
